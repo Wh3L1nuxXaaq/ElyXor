@@ -1,9 +1,13 @@
 # ElyXor
 
-use:
+ElyXor - string hider
 
+## Example
+
+```cpp
 #include <iostream>
 #include "xor.h"
+
 int main() {
     auto encrypted = elyXor("Hello World!");
     std::cout << encrypted.decrypt() << std::endl;
